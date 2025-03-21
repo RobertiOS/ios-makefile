@@ -1,3 +1,9 @@
+//
+// (c) 2025 Roberto Corrales, All rights reserved.
+//
+//
+//
+
 import ProjectDescription
 
 let project = Project(
@@ -12,8 +18,8 @@ let project = Project(
                 with: [
                     "UILaunchScreen": [
                         "UIColorName": "",
-                        "UIImageName": "",
-                    ],
+                        "UIImageName": ""
+                    ]
                 ]
             ),
             sources: ["ios-makefile/Sources/**"],
@@ -29,6 +35,6 @@ let project = Project(
             sources: ["ios-makefile/Tests/**"],
             resources: [],
             dependencies: [.target(name: "ios-makefile")]
-        ),
+        )
     ]
 )

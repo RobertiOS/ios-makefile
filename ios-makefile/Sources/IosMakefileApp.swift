@@ -1,3 +1,9 @@
+//
+// (c) 2025 Roberto Corrales, All rights reserved.
+//
+//
+//
+
 import SwiftUI
 
 @main

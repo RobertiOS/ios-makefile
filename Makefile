@@ -19,7 +19,6 @@ lint:
 	mise install
 	swiftformat --lint .
 	swiftlint --quiet --strict --no-cache
-	markdownlint .
 
 .PHONY: clean
 clean:

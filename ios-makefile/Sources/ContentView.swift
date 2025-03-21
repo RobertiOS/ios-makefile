@@ -1,3 +1,9 @@
+//
+// (c) 2025 Roberto Corrales, All rights reserved.
+//
+//
+//
+
 import SwiftUI
 
 public struct ContentView: View {
@@ -8,7 +14,6 @@ public struct ContentView: View {
             .padding()
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
