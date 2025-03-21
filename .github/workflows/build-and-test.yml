@@ -1,0 +1,26 @@
+name: Build and test
+
+on: 
+  pull_request:
+    branches:
+      - main
+      - development
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Select Xcode version
+        run: sudo xcode-select -s /Applications/Xcode_16.2.0.app
+
+      - name: Checkout
+        uses: actions/checkout@v3
+    
+      - name: mise action
+        uses: jdx/mise-action@v2.1.11
+
+      - name: Build and test
+        run: make build-and-test-ci

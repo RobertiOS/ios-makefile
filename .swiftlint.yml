@@ -1,0 +1,23 @@
+# .swiftlint.yml
+
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - Carthage
+  - Pods
+  - .build
+  - Generated
+
+opt_in_rules:
+  - empty_parameters
+  - redundant_optional_initialization
+
+disabled_rules:
+  - trailing_whitespace
+  - force_cast
+  - force_unwrapping
+
+line_length: 120
+indentation: spaces

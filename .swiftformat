@@ -1,0 +1,14 @@
+--commas inline
+--enable blockComments
+--exclude Derived, .derivedData, .tmp, DerivedData, gems, Pods, Scripts
+--exclude */Derived/**.swift
+--exclude */.build/**.swift
+--header "\n\
+(c) {year} Roberto Corrales, All rights reserved.\n\n\
+\n"
+--ifdef no-indent
+--indent 4
+--importgrouping testable-bottom
+--wrapcollections before-first
+--wrapparameters before-first
+--disable redundantParens
