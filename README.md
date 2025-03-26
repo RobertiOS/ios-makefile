@@ -1,2 +1,2 @@
-## This is the sample project for my article at medium
-[Medium Article](https://medium.com/@robert.ios.developer/using-makefiles-to-automate-repetitive-tasks-in-ios-development-c45e51042eba?source=user_profile_page---------0-------------b6d4dbd9d974----------------------)
+[![Build and test](https://github.com/RobertiOS/ios-makefile/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/RobertiOS/ios-makefile/actions/workflows/build-and-test.yml)
+## This is the sample project for [my article at medium](https://medium.com/@robert.ios.developer/using-makefiles-to-automate-repetitive-tasks-in-ios-development-c45e51042eba?source=user_profile_page---------0-------------b6d4dbd9d974----------------------)
